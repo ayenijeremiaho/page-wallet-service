@@ -21,7 +21,7 @@ public class AuthenticationController {
 
     @GetMapping("hello")
     private String getString(){
-        return "Hello, Welcome!!!";
+        return "Hello, Welcome!!";
     }
 
     @PostMapping("authenticate")
